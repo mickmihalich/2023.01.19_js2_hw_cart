@@ -28,4 +28,5 @@
 .cart_container .cart_item {
   min-height: 2em;
   border: 1px solid green;
+  border-radius: 0.5em;
 }/*# sourceMappingURL=main.css.map */
