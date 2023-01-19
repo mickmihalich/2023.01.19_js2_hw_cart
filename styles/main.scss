@@ -1,0 +1,29 @@
+
+
+.cart_container {
+    padding: 15px;
+    max-width: 90vw;
+    min-width: 350px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 15px darkgray;
+
+    h1 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .add_new_item {
+        width: 40px;
+        height: 40px;                
+    
+        svg {
+            fill: gray;            
+            &:hover
+            {
+                fill: orange;
+                filter: drop-shadow(3px 3px 2px rgba(255, 157, 0, 0.4));
+            }   
+        }
+    }
+}
